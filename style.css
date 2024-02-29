@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto Mono", open-sans;
+}
+
+.fix-position {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.visit-button {
+  width: fit-content;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: #302718;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* navigation section */
+
+nav {
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav .logo-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav .logo-container h4 {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+nav .navlinks {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+nav .navlinks li {
+  padding: 10px;
+}
+
+nav .navlinks .active {
+  background-image: url("images/background2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-color: #c7ab59;
+  padding: 75px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #302718;
+}
+
+#gallery {
+  background-color: #ded2a8;
+  width: 100%;
+  padding: 75px 150px;
+}
+
+section .text-container h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #302718;
+}
+
+section .text-container p {
+  font-size: 24px;
+  margin: 20px;
+}
+
+section .gallery {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+section .gallery figure {
+  width: 200px;
+  border-radius: 20px;
+}
+
+section .gallery img {
+  object-fit: fill;
+}
+
+#menu {
+  width: 100%;
+  min-height: 100vh;
+  background: url("images/background3.jpeg");
+  background-position: center;
+  background-size: fill;
+  padding: 75px 150px;
+}
+
+#menu h1 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.foods {
+  width: 70%;
+  margin: 20px auto;
+  background-color: rgba(211, 211, 211, 0.8);
+  padding: 20px 50px;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+}
+
+.menu-header h3 {
+  font-weight: 700;
+  margin: 12px;
+}
+
+.foods a {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #302718;
+}
+
+.foods a:hover {
+  transform: scaleY(1.2);
+}
